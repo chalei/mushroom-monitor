@@ -20,16 +20,16 @@
    // Enter a MAC address for your controller below.
    // Newer Ethernet shields have a MAC address printed on a sticker on the shield
    byte mac[] = {  0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-   IPAddress ip(192, 168, 0, 177);
+   IPAddress ip(192, 168, 0, 100);
 
    // Initialize the Ethernet client library
    // with the IP address and port of the server
    // that you want to connect to (port 80 is default for HTTP):
    EthernetClient client;
 
-   #define idvariable1 "568a229d762542395186640d" // variabel kelembaban media
-   #define idvariable2  "568a2f6a7625425363f7cf03" // variabel suhu
-   String token = "r9f3Xyjv3XDviyOmfrL2RB2ycjRRQlMQXt9dZNrfMA22d1LuPZAtIWRuejx0";
+   #define idvariable1 "first variable" // soil moisture
+   #define idvariable2  "seccond variable" // temperature
+   String token = "token ID";
    float temp;
 
    void setup() {
